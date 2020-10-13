@@ -10,6 +10,13 @@ window.onscroll = function () {
     else {
         header.classList.remove('active');
     }
+    if (window.pageYOffset > window.innerHeight / 2) {
+        document.querySelector("#backTop").style.opacity = 0.8;
+        document.querySelector("#backTop").style.visibility = "visible";
+    } else {
+        document.querySelector("#backTop").style.opacity = 0;
+        document.querySelector("#backTop").style.visibility = "hidden";
+    }
 }
 
 $(function () {
@@ -21,7 +28,7 @@ $(function () {
         }
         else {
             drawer.classList.remove('active');
-            Scroll.enable();    
+            Scroll.enable();
         }
     }
     const Scroll = (function () {
@@ -67,4 +74,14 @@ $(function () {
             enable: enableScroll
         }
     })();
+});
+
+$("#backTop").click(function (event) {
+    $("html,body").animate({
+        scrollTop: 0,
+    },
+        1000,
+        "swing"
+    );
+    return false;
 });
