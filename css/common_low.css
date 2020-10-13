@@ -1,0 +1,47 @@
+.top-title h2 span {
+  font-family: "Poppins", sans-serif;
+}
+
+.top-title h2 span {
+  color: #1eb9ee;
+}
+
+.top-title {
+  width: 100%;
+  position: relative;
+}
+.top-title h2 {
+  text-align: left;
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding-top: 9rem;
+  padding-bottom: 10rem;
+}
+.top-title h2 span {
+  line-height: 0.7;
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 12rem;
+}
+@media only screen and (max-width: 1600px) {
+  .top-title h2 span {
+    font-size: 6rem;
+  }
+}
+.top-title figure {
+  position: relative;
+  z-index: -1;
+  top: -18.8rem;
+}
+.top-title figure img {
+  width: 100%;
+}
+.top-title p {
+  position: absolute;
+  bottom: 6rem;
+  font-weight: 700;
+  font-size: 2.8rem;
+  letter-spacing: 0.3rem;
+}
+
+/*# sourceMappingURL=common_low.css.map */
