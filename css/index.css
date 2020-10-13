@@ -285,7 +285,8 @@ span.span-title {
     padding: 50px 0 50px 0; }
     .toppage-main .message .text {
       font-size: 1.2rem;
-      margin-top: 30px; }
+      margin-top: 30px;
+      line-height: 25px; }
     .toppage-main .message .title img {
       width: 40%; }
   .toppage-main .profile .profile-content a {
