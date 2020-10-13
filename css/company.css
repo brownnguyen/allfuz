@@ -1,1 +1,9 @@
-@import 'var.scss';
+#company .low-top .top-title p {
+  margin-bottom: 3rem;
+}
+#company .company__content .small-text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+/*# sourceMappingURL=company.css.map */

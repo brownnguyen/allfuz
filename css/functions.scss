@@ -1,0 +1,86 @@
+@mixin tablet{
+	@media screen and (max-width: 1023px) {
+		@content;
+	}
+}
+@mixin mobile{
+	@media screen and (max-width: 767px) {
+		@content;
+	}
+}
+@mixin ipadPortrail{
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+		@content;
+	}
+}
+@mixin ipadLandscape{
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		@content;
+	}
+}
+@mixin responsive($width){
+	@media screen and (max-width: $width){
+		@content;
+	}
+}
+@mixin fillPos{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+@mixin btn-a($width, $padding, $font-size){
+	max-width: $width;
+	width: 100%;
+	margin: 25px auto;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	display: block;
+	border-radius: 50px;
+	padding: $padding 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: $font-size;
+	color: #000;
+	border: 4px solid #ffcf41;
+	transition: all 0.5s ease;
+	background-color: #ffcf41;
+	img{
+		margin-left: 20px;
+	}
+	&::before{
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 110%;
+		height: 110%;
+		background-color: #ffcf41;
+		transition: all 0.5s ease;
+		transform-origin: right center;
+	}
+	&::after{
+		content: '';
+		position: absolute;
+		z-index: -2;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+	}
+	&:hover{
+		&::before{
+			transform: scaleX(0);
+		}
+	}
+	@include responsive(360px){
+		font-size: 1.6rem !important;
+		img{
+			max-width: 15px;
+		}
+	}
+}
