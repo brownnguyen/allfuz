@@ -1,0 +1,36 @@
+.clearboth {
+  clear: both; }
+
+.low-top {
+  margin-top: 100px; }
+  .low-top .breakcumb {
+    float: right; }
+    .low-top .breakcumb ul li.active {
+      border-right: 2px solid #cccccc; }
+      .low-top .breakcumb ul li.active a {
+        color: #1eb9ee;
+        padding: 0 20px;
+        text-decoration: underline; }
+    .low-top .breakcumb ul li {
+      display: inline-block;
+      transition: 0.3s ease-in-out; }
+      .low-top .breakcumb ul li a {
+        color: #333333;
+        padding: 0 0 0 20px; }
+      .low-top .breakcumb ul li:hover {
+        opacity: 0.8; }
+  .low-top h2.title {
+    margin-top: 60px;
+    font-size: 2.8rem; }
+    .low-top h2.title span {
+      margin-bottom: 10px;
+      display: block;
+      font-size: 12rem;
+      color: #1eb9ee;
+      font-family: "Poppins", sans-serif; }
+
+@media screen and (max-width: 768px) {
+  .low-top h2.title {
+    font-size: 1.6rem; }
+    .low-top h2.title span {
+      font-size: 5rem; } }
