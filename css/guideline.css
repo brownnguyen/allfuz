@@ -1,30 +1,45 @@
-.guideeeee-line h2 {
-  font-weight: bold;
-  font-size: 2rem;
-  color: #1eb9ee;
-  border-bottom: 2px solid #1eb9ee;
-  line-height: 2.5; }
-.guideeeee-line__tassble dl {
-  padding: 30px 0;
-  border-bottom: 1px solid #ccc;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start; }
-  .guideeeee-line__tassble dl dt {
-    max-width: 250px;
-    width: 100%; }
-.guideeeee-line a {
-  max-width: 300px;
-  width: 100%;
-  background-color: #1eb9ee;
-  padding: 25px 0;
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  margin: 40px auto 100px; }
-  .guideeeee-line a:hover {
-    opacity: 0.8; }
+.guide-line {
+  margin-top: 85px; }
+  .guide-line h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #1eb9ee;
+    border-bottom: 2px solid #1eb9ee;
+    line-height: 2.5; }
+  .guide-line__table dl {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    .guide-line__table dl dt {
+      max-width: 250px;
+      width: 100%; }
+      .guide-line__table dl dt br {
+        display: none; }
+  .guide-line a {
+    max-width: 300px;
+    width: 100%;
+    background-color: #1eb9ee;
+    padding: 25px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 40px auto 100px; }
+    .guide-line a:hover {
+      opacity: 0.8; }
+  @media screen and (max-width: 1023px) {
+    .guide-line {
+      margin-top: 30px; } }
+  @media screen and (max-width: 767px) {
+    .guide-line {
+      margin-top: 15px; }
+      .guide-line__table dl dt {
+        max-width: 100px;
+        line-height: 1.5; }
+        .guide-line__table dl dt br {
+          display: block; } }
 
 /*# sourceMappingURL=guideline.css.map */
