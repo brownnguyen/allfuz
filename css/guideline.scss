@@ -1,2 +1,38 @@
 @charset "UTF-8";
 @import "functions.scss";
+
+.guideeeee-line{
+	h2{
+		font-weight: bold;
+		font-size: 2rem;
+		color: #1eb9ee;
+		border-bottom: 2px solid #1eb9ee;
+		line-height: 2.5; 
+	}
+	&__tassble dl{
+		padding: 30px 0;
+		border-bottom: 1px solid #ccc;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		dt{
+			max-width: 250px;
+			width: 100%;
+		}
+	}
+	a{
+		max-width: 300px;
+		width: 100%;
+		background-color: #1eb9ee;
+		padding: 25px 0;
+		text-align: center;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		margin: 40px auto 100px;
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+}
