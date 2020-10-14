@@ -23,6 +23,7 @@
 .low-top .breakcumb ul li {
     display: inline-block;
     transition: 0.3s ease-in-out;
+    margin-bottom: 10px;
 }
 
 .low-top .breakcumb ul li a {
