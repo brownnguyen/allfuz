@@ -92,6 +92,13 @@ a {
   transform: translateX(10px);
 }
 
+.common-blog a.btn-more.btn-more--prev .icon {
+  right: auto;
+  left: -25px;
+}
+.common-blog a.btn-more.btn-more--prev:hover .icon {
+  transform: translateX(-10px);
+}
 .common-blog .blog-common-content {
   display: flex;
   justify-content: space-between;
