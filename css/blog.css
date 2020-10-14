@@ -1,8 +1,9 @@
 .blog-detail {
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
+  margin-top: 100px; }
+  .blog-detail .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
   .blog-detail__content {
     max-width: calc((100% - 60px) * 3 / 4);
     width: 100%; }
@@ -15,6 +16,8 @@
       font-weight: 500; }
       .blog-detail__content p:first-of-type {
         margin: 40px 0; }
+    .blog-detail__content figure img {
+      width: 100%; }
   .blog-detail__nav {
     max-width: calc((100% - 60px) / 4);
     width: 100%; }

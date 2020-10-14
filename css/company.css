@@ -1,23 +1,32 @@
 #company .top-title .title {
-  margin-left: 2.5rem;
-}
-#company .top-title .title span {
-  margin-left: -3rem;
-}
-#company .low-top .top-title p {
-  margin-bottom: 3rem;
-}
-#company .company__content .small-text {
-  text-align: center;
-  letter-spacing: 0.17rem;
-  line-height: 2;
-}
-#company .guide-line-box {
-  margin-top: 5rem;
-  margin-bottom: 12rem;
-}
-#company .guide-line-box dl {
-  line-height: 2;
+    margin-left: 2.5rem;
 }
 
-/*# sourceMappingURL=company.css.map */
+#company .top-title .title span {
+    margin-left: -3rem;
+}
+
+#company .low-top .top-title p {
+    margin-bottom: 3rem;
+}
+
+#company .company__content .small-text {
+    text-align: center;
+    letter-spacing: 0.17rem;
+    line-height: 2;
+}
+
+#company .guide-line-box {
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+}
+
+@media only screen and (max-width: 767px) {
+    #company .guide-line-box {
+        margin-bottom: 3.9rem;
+    }
+}
+
+#company .guide-line-box dl {
+    line-height: 2;
+}

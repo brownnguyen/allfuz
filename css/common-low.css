@@ -34,10 +34,6 @@
     opacity: 0.8;
 }
 
-.low-top .top-title {
-    margin-top: 60px;
-}
-
 .low-top .top-title p {
     font-weight: 700;
     font-size: 2.8rem;
@@ -55,6 +51,7 @@
 
 .low-top h2.title {
     font-size: 2.8rem;
+    margin-top: 60px;
 }
 
 .low-top h2.title span {
@@ -72,6 +69,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .low-top h2.title {
+        margin-top: 3rem;
+    }
+
     .low-top figure {
         top: -4.5rem;
     }
@@ -81,15 +82,6 @@
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-    .low-top h2.title {
-        font-size: 1.6rem;
-    }
-
-    .low-top h2.title span {
-        font-size: 5rem;
-    }
-}
 
 .guide-line-box dl {
     padding: 30px 0;
@@ -101,8 +93,14 @@
 }
 
 .guide-line-box dl dt {
-    max-width: 250px;
+    max-width: 370px;
     width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .guide-line-box dl dt {
+        max-width: 180px;
+    }
 }
 
 .guide-line-box dl dd {
@@ -112,6 +110,8 @@
 .guide-line-box dl dt br {
     display: none;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .low-top h2.title {
