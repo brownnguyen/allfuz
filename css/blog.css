@@ -14,10 +14,12 @@
     .blog-detail__content p {
       color: #333;
       font-weight: 500; }
-      .blog-detail__content p:first-of-type {
-        margin: 40px 0; }
+    .blog-detail__content > p {
+      margin: 40px 0; }
     .blog-detail__content figure img {
       width: 100%; }
+    .blog-detail__content__text {
+      margin: 40px 0; }
   .blog-detail__nav {
     max-width: calc((100% - 60px) / 4);
     width: 100%; }
