@@ -4,7 +4,7 @@ var header = document.querySelector('.header');
 
 window.onscroll = function () {
     var height = window.pageYOffset;
-    if (height > 100) {
+    if (height > 1) {
         header.classList.add('active');
     }
     else {
