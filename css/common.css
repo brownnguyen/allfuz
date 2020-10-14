@@ -223,6 +223,8 @@ header.header {
         font-size: 2rem;
         font-weight: bold;
         color: #1eb9ee; }
+      .drawer-menu .main-drawer .home-entry .home a:hover {
+        opacity: 0.8; }
   .drawer-menu .drawer-content {
     display: flex;
     justify-content: center;
@@ -310,6 +312,12 @@ footer.footer {
     .drawer-menu .drawer-content .content {
       margin-bottom: 10px;
       height: 70px; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .drawer-menu .main-drawer .home-entry .home .entry {
+    padding-top: 8px; }
+  .toppage-main .profile .profile-content a span.span-title {
+    padding-top: 10px; } }
 
 @media screen and (max-width: 768px) {
   header.header {
