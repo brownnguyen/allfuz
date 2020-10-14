@@ -1,3 +1,6 @@
+.low-top .breakcumb ul li {
+  margin-bottom: 10px; }
+
 .blog-detail {
   margin-top: 100px; }
   .blog-detail .container {
@@ -20,8 +23,84 @@
       width: 100%; }
     .blog-detail__content__text {
       margin: 40px 0; }
+    .blog-detail__content__btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: calc(100% - 230px);
+      width: 100%;
+      margin: auto; }
   .blog-detail__nav {
     max-width: calc((100% - 60px) / 4);
     width: 100%; }
+    .blog-detail__nav h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1eb9ee;
+      margin-bottom: 10px; }
+    .blog-detail__nav ul {
+      padding-left: 15px; }
+      .blog-detail__nav ul li::before {
+        content: "\2022";
+        color: #008cd1;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        line-height: 2; }
+      .blog-detail__nav ul li a {
+        color: #333;
+        font-weight: 500px;
+        text-decoration: none; }
+        .blog-detail__nav ul li a:hover, .blog-detail__nav ul li a:visited, .blog-detail__nav ul li a:focus, .blog-detail__nav ul li a:active {
+          color: #333 !important; }
+        .blog-detail__nav ul li a:hover {
+          opacity: 0.8; }
+  @media screen and (max-width: 1023px) {
+    .blog-detail {
+      margin-top: 40px; }
+      .blog-detail__content__btn {
+        max-width: calc(100% - 80px); }
+        .blog-detail__content__btn a.btn-more {
+          width: 200px; } }
+  @media screen and (max-width: 767px) {
+    .blog-detail .container {
+      flex-flow: column-reverse nowrap; }
+    .blog-detail__content {
+      max-width: 100%;
+      margin-top: 30px; }
+      .blog-detail__content__btn {
+        max-width: 100%;
+        flex-flow: column nowrap; }
+        .blog-detail__content__btn a.btn-more {
+          width: 90%; }
+          .blog-detail__content__btn a.btn-more:first-of-type {
+            margin-bottom: 20px; }
+    .blog-detail__nav {
+      max-width: 100%; } }
+
+.hr-blog {
+  margin-top: 100px; }
+  .hr-blog__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: calc(100% - 550px);
+    width: 100%;
+    margin: auto; }
+  @media screen and (max-width: 1023px) {
+    .hr-blog {
+      margin-top: 40px; }
+      .hr-blog__link {
+        max-width: calc(100% - 200px); } }
+  @media screen and (max-width: 1023px) {
+    .hr-blog__link {
+      max-width: 100%;
+      flex-flow: column nowrap; }
+      .hr-blog__link a.btn-more {
+        width: 90%; }
+        .hr-blog__link a.btn-more:first-of-type {
+          margin-bottom: 20px; } }
 
 /*# sourceMappingURL=blog.css.map */
