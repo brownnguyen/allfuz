@@ -38,16 +38,16 @@
     margin-top: 60px;
 }
 
-.low-top .top-title p{
+.low-top .top-title p {
     font-weight: 700;
     font-size: 2.8rem;
-    letter-spacing: .3rem;
+    letter-spacing: .2rem;
     margin-bottom: 8.5rem;
     text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    .low-top .top-title p{
+    .low-top .top-title p {
         font-size: 1.6rem;
         margin-bottom: 1rem;
     }
@@ -65,25 +65,21 @@
     font-family: "Poppins", sans-serif;
 }
 
-.low-top figure{
+.low-top figure {
     position: relative;
     z-index: -1;
     top: -8.5rem;
 }
 
 @media screen and (max-width: 768px) {
-    .low-top figure{
+    .low-top figure {
         top: -4.5rem;
     }
 }
 
-.low-top figure img{
+.low-top figure img {
     width: 100%;
 }
-
-
-
-
 
 @media screen and (max-width: 768px) {
     .low-top h2.title {
@@ -92,5 +88,46 @@
 
     .low-top h2.title span {
         font-size: 5rem;
+    }
+}
+
+.guide-line-box dl {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 500;
+}
+
+.guide-line-box dl dt {
+    max-width: 250px;
+    width: 100%;
+}
+
+.guide-line-box dl dd {
+    letter-spacing: 0.2rem;
+}
+
+.guide-line-box dl dt br {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .low-top h2.title {
+        font-size: 1.6rem;
+    }
+
+    .low-top h2.title span {
+        font-size: 5rem;
+    }
+
+    .guide-line-box dl dt {
+        max-width: 100px;
+        line-height: 1.5;
+    }
+
+    .guide-line-box dl dt br {
+        display: block;
     }
 }

@@ -21,9 +21,10 @@ window.onscroll = function () {
 
 $(function () {
     headerMenu.onclick = function () {
-        headerMenu.classList.toggle('active');
+        headerMenu.classList.toggle('active'); console.log('asdasd');
         if (headerMenu.classList.contains('active')) {
             drawer.classList.add('active');
+
             Scroll.disable();
         }
         else {

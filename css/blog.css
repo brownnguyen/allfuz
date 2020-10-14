@@ -1,0 +1,22 @@
+.blog-detail {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .blog-detail__content {
+    max-width: calc((100% - 60px) * 3 / 4);
+    width: 100%; }
+    .blog-detail__content h3 {
+      font-weight: bold;
+      color: #333;
+      font-size: 2rem; }
+    .blog-detail__content p {
+      color: #333;
+      font-weight: 500; }
+      .blog-detail__content p:first-of-type {
+        margin: 40px 0; }
+  .blog-detail__nav {
+    max-width: calc((100% - 60px) / 4);
+    width: 100%; }
+
+/*# sourceMappingURL=blog.css.map */

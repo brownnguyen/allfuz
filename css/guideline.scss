@@ -1,24 +1,14 @@
 @charset "UTF-8";
 @import "functions.scss";
 
-.guideeeee-line{
+.guide-line{
+	margin-top: 85px;
 	h2{
 		font-weight: bold;
 		font-size: 2rem;
 		color: #1eb9ee;
 		border-bottom: 2px solid #1eb9ee;
 		line-height: 2.5; 
-	}
-	&__tassble dl{
-		padding: 30px 0;
-		border-bottom: 1px solid #ccc;
-		display: flex;
-		justify-content: flex-start;
-		align-items: flex-start;
-		dt{
-			max-width: 250px;
-			width: 100%;
-		}
 	}
 	a{
 		max-width: 300px;
@@ -34,5 +24,11 @@
 		&:hover{
 			opacity: 0.8;
 		}
+	}
+	@include tablet{
+		margin-top: 30px;
+	}
+	@include mobile{
+		margin-top: 15px;
 	}
 }
