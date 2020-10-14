@@ -9,7 +9,9 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+ "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN",
+ "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
   color: #333333;
   overflow-x: hidden; }
 
@@ -74,6 +76,13 @@ a {
     .common-blog a.btn-more:hover .icon {
       transform: translateX(10px); }
 
+.common-blog a.btn-more.btn-more--prev .icon{
+  right: auto;
+  left: -25px;
+}
+.common-blog a.btn-more.btn-more--prev:hover .icon{
+  transform: translateX(-10px);
+}
 .common-blog .blog-common-content {
   display: flex;
   justify-content: space-between;
