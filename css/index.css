@@ -70,10 +70,11 @@ span.span-title {
     .toppage-main .message .title span:after {
       left: auto;
       right: -25px; }
-  .toppage-main .message .text {
+  .toppage-main .message .text-top {
     margin-top: 40px;
     font-size: 2rem;
-    line-height: 45px; }
+    line-height: 45px;
+    font-weight: bold; }
 
 .toppage-main .profile .profile-content {
   display: flex;
@@ -216,5 +217,11 @@ span.span-title {
     bottom: 0; } }
 
 @media screen and (max-width: 576px) {
-  .toppage-main .top-page .top-page-content .top-page-icon .icon span {
-    font-size: 1.2rem; } }
+  .toppage-main .top-page {
+    margin-top: 50px; }
+    .toppage-main .top-page .top-page-content {
+      top: 55%; }
+      .toppage-main .top-page .top-page-content .top-page-icon .icon span {
+        font-size: 1.2rem; }
+  .toppage-main .message .text {
+    text-align: left; } }
