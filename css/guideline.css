@@ -1,12 +1,16 @@
 .guide-line {
-  margin-top: 85px; }
-  .guide-line h2 {
+    margin-top: 85px;
+}
+
+.guide-line h2 {
     font-weight: bold;
     font-size: 2rem;
     color: #1eb9ee;
     border-bottom: 2px solid #1eb9ee;
-    line-height: 2.5; }
-  .guide-line a {
+    line-height: 2.5;
+}
+
+.guide-line a {
     max-width: 300px;
     width: 100%;
     background-color: #1eb9ee;
@@ -16,12 +20,21 @@
     color: #fff;
     text-decoration: none;
     display: block;
-    margin: 40px auto 100px; }
-    .guide-line a:hover {
-      opacity: 0.8; }
-  @media screen and (max-width: 1023px) {
+    margin: 40px auto 100px;
+}
+
+.guide-line a:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
     .guide-line {
-      margin-top: 30px; } }
-  @media screen and (max-width: 767px) {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .guide-line {
-      margin-top: 15px; } }
+        margin-top: 15px;
+    }
+}
